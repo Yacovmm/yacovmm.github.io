@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yacov Rosenberg</title>
-    <link>http://www.example.com/</link>
+    <link>https://yacovmm.github.io/</link>
     <description>Recent content on Yacov Rosenberg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yacovmm.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My first post</title>
-      <link>http://www.example.com/posts/teste/</link>
+      <link>https://yacovmm.github.io/posts/teste/</link>
       <pubDate>Mon, 13 Sep 2021 16:10:42 -0300</pubDate>
       
-      <guid>http://www.example.com/posts/teste/</guid>
+      <guid>https://yacovmm.github.io/posts/teste/</guid>
       <description>Primeiro post Esse é meu primeiro post oficial no meu blog, e tem como finalidade teste
 Hello world </description>
     </item>
     
     <item>
       <title>About Me</title>
-      <link>http://www.example.com/about/</link>
+      <link>https://yacovmm.github.io/about/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/about/</guid>
+      <guid>https://yacovmm.github.io/about/</guid>
       <description>Meu nome é Yacov Rosenberg.
 Sou engenheiro de software, atualmente meu foco está no mundo mobile, mais especificamente no android.
 Esse blog foi feito com o objetivo de compartilhar meus estudos e pensamentos.
@@ -35,19 +35,19 @@ Saiba mais sobre mim.</description>
     
     <item>
       <title>Contact</title>
-      <link>http://www.example.com/contact/</link>
+      <link>https://yacovmm.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/contact/</guid>
+      <guid>https://yacovmm.github.io/contact/</guid>
       <description>Follow me, @yacovmm.</description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://www.example.com/projects/</link>
+      <link>https://yacovmm.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/projects/</guid>
+      <guid>https://yacovmm.github.io/projects/</guid>
       <description>Nada para ver aqui&amp;hellip; Move along!</description>
     </item>
     

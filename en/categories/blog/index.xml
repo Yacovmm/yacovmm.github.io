@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on Yacov Rosenberg</title>
-    <link>http://www.example.com/en/categories/blog/</link>
+    <link>https://yacovmm.github.io/en/categories/blog/</link>
     <description>Recent content in blog on Yacov Rosenberg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Mon, 13 Sep 2021 16:10:42 -0300</lastBuildDate>
     
-	<atom:link href="http://www.example.com/en/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yacovmm.github.io/en/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My first post</title>
-      <link>http://www.example.com/en/posts/teste/</link>
+      <link>https://yacovmm.github.io/en/posts/teste/</link>
       <pubDate>Mon, 13 Sep 2021 16:10:42 -0300</pubDate>
       
-      <guid>http://www.example.com/en/posts/teste/</guid>
+      <guid>https://yacovmm.github.io/en/posts/teste/</guid>
       <description>First Post This is my first post for testing.
 Hello world </description>
     </item>
