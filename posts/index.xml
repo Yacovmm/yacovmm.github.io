@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yacov Rosenberg</title>
+    <link>http://www.example.com/posts/</link>
+    <description>Recent content in Posts on Yacov Rosenberg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 13 Sep 2021 16:10:42 -0300</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My first post</title>
+      <link>http://www.example.com/posts/teste/</link>
+      <pubDate>Mon, 13 Sep 2021 16:10:42 -0300</pubDate>
+      
+      <guid>http://www.example.com/posts/teste/</guid>
+      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

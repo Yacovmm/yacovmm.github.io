@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yacov Rosenberg</title>
+    <link>http://www.example.com/</link>
+    <description>Recent content on Yacov Rosenberg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My first post</title>
+      <link>http://www.example.com/posts/teste/</link>
+      <pubDate>Mon, 13 Sep 2021 16:10:42 -0300</pubDate>
+      
+      <guid>http://www.example.com/posts/teste/</guid>
+      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://www.example.com/about/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/about/</guid>
+      <description>Meu nome é Yacov Rosenberg.
+Sou engenheiro de software, atualmente meu foco está no mundo mobile, mais especificamente no android.
+Esse blog foi feito com o objetivo de compartilhar meus estudos e pensamentos.
+Saiba mais sobre mim.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.example.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/contact/</guid>
+      <description>Follow me, @yacovmm.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://www.example.com/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.example.com/projects/</guid>
+      <description>Nada para ver aqui&amp;hellip; Move along!</description>
+    </item>
+    
+  </channel>
+</rss>
