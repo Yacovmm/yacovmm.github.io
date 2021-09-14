@@ -17,7 +17,8 @@
       <pubDate>Mon, 13 Sep 2021 16:10:42 -0300</pubDate>
       
       <guid>http://www.example.com/posts/teste/</guid>
-      <description>&lt;p&gt;Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.&lt;/p&gt;</description>
+      <description>Primeiro post Esse é meu primeiro post oficial no meu blog, e tem como finalidade teste
+Hello world </description>
     </item>
     
     <item>

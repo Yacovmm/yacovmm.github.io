@@ -120,8 +120,6 @@
           
           
             
-          
-            
               
                 <li class="navigation-item menu-separator">
                   <span>|</span>
@@ -129,7 +127,7 @@
                 
               
               <li class="navigation-item">
-                <a href="http://www.example.com/en/">🇬🇧</a>
+                <a href="http://www.example.com/en/posts/teste/">🇬🇧</a>
               </li>
             
           
@@ -162,7 +160,7 @@
             </span>
             <span class="reading-time">
               <i class="fa fa-clock-o" aria-hidden="true"></i>
-              3 minutos de leitura
+              Um minuto de leitura
             </span>
           </div>
           <div class="authors">
@@ -170,12 +168,12 @@
       <a href="/authors/yacov/">Yacov</a></div>
           <div class="categories">
   <i class="fa fa-folder" aria-hidden="true"></i>
-    <a href="/categories/hugo/">hugo</a></div>
+    <a href="/categories/blog/">blog</a></div>
 
           <div class="tags">
   <i class="fa fa-tag" aria-hidden="true"></i>
     <span class="tag">
-      <a href="/tags/higo/">higo</a>
+      <a href="/tags/blog/">blog</a>
     </span></div>
 
         </div>
@@ -183,145 +181,10 @@
 
       <div>
         
-        <p>Esse artigo é um exemplo básico para mostrar a sintaxe Markdown que é usada nos arquivos de conteúdo do Hugo. Ele também mostrar como cada elemento básico HTML é estilizado com CSS com os temas do Hugo.</p>
-<h2 id="cabeçalhos">Cabeçalhos</h2>
-<p>Os seguintes elementos HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> representam 6 níveis de cabeçalhos de seção. <code>&lt;h1&gt;</code> é para seções de nível mais alto enquanto <code>&lt;h6&gt;</code> é para o nível mais baixo.</p>
-<h1 id="h1">H1</h1>
-<h2 id="h2">H2</h2>
-<h3 id="h3">H3</h3>
-<h4 id="h4">H4</h4>
-<h5 id="h5">H5</h5>
-<h6 id="h6">H6</h6>
-<h2 id="parágrafo">Parágrafo</h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
-<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
-<h2 id="citações">Citações</h2>
-<p>O elemento de citações representa um conteúdo citado de outra origem, opcionalmente com atribuição que deve estar contida em um elemento <code>footer</code> ou <code>cite</code>, e também opcionalmente com informações in-line como anotações e abreviações.</p>
-<h4 id="citações-sem-atribuição">Citações sem atribuição</h4>
-<blockquote>
-<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
-</blockquote>
-<h4 id="citações-com-atribuição">Citações com atribuição</h4>
-<blockquote>
-<p>Não comunique compartilhando memória, compartilhe memória comunicando.<!-- raw HTML omitted -->
-— <!-- raw HTML omitted -->Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><!-- raw HTML omitted --></p>
-</blockquote>
-<h2 id="tabelas">Tabelas</h2>
-<p>Tabelas não fazem parte do cerne da especificação do Markdown, mas o Hugo oferece suporte a elas.</p>
-<table>
-<thead>
-<tr>
-<th>Nome</th>
-<th>Idade</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bob</td>
-<td>27</td>
-</tr>
-<tr>
-<td>Alice</td>
-<td>23</td>
-</tr>
-</tbody>
-</table>
-<h4 id="tabelas-com-markdown-inline">Tabelas com Markdown inline</h4>
-<table>
-<thead>
-<tr>
-<th>Italics</th>
-<th>Bold</th>
-<th>Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>italics</em></td>
-<td><strong>bold</strong></td>
-<td><code>code</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="blocos-de-código">Blocos de código</h2>
-<h4 id="blocos-de-código-com-crase">Blocos de código com crase</h4>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="">&lt;!doctype html&gt;</span>
-&lt;<span style="font-weight:bold">html</span> lang=<span style="font-style:italic">&#34;pt-br&#34;</span>&gt;
-&lt;<span style="font-weight:bold">head</span>&gt;
-  &lt;<span style="font-weight:bold">meta</span> charset=<span style="font-style:italic">&#34;utf-8&#34;</span>&gt;
-  &lt;<span style="font-weight:bold">title</span>&gt;Exemplo de Documento HTML5&lt;/<span style="font-weight:bold">title</span>&gt;
-&lt;/<span style="font-weight:bold">head</span>&gt;
-&lt;<span style="font-weight:bold">body</span>&gt;
-  &lt;<span style="font-weight:bold">p</span>&gt;Teste&lt;/<span style="font-weight:bold">p</span>&gt;
-&lt;/<span style="font-weight:bold">body</span>&gt;
-&lt;/<span style="font-weight:bold">html</span>&gt;
-</code></pre></div><h4 id="blocos-de-código-com-quatro-espaços">Blocos de código com quatro espaços</h4>
-<pre><code>&lt;!doctype html&gt;
-&lt;html lang=&quot;pt-br&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Exemplo de Documento HTML5&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Teste&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-<h4 id="blocos-de-código-com-highlight-shortcode-interno-do-hugo">Blocos de código com highlight shortcode interno do Hugo</h4>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="">&lt;!doctype html&gt;</span>
-&lt;<span style="font-weight:bold">html</span> lang=<span style="font-style:italic">&#34;pt-br&#34;</span>&gt;
-&lt;<span style="font-weight:bold">head</span>&gt;
-  &lt;<span style="font-weight:bold">meta</span> charset=<span style="font-style:italic">&#34;utf-8&#34;</span>&gt;
-  &lt;<span style="font-weight:bold">title</span>&gt;Exemplo de Documento HTML5&lt;/<span style="font-weight:bold">title</span>&gt;
-&lt;/<span style="font-weight:bold">head</span>&gt;
-&lt;<span style="font-weight:bold">body</span>&gt;
-  &lt;<span style="font-weight:bold">p</span>&gt;Teste&lt;/<span style="font-weight:bold">p</span>&gt;
-&lt;/<span style="font-weight:bold">body</span>&gt;
-&lt;/<span style="font-weight:bold">html</span>&gt;</code></pre></div>
-<h2 id="tipos-de-listas">Tipos de Listas</h2>
-<h4 id="listas-ordenada">Listas Ordenada</h4>
-<ol>
-<li>Primeiro item</li>
-<li>Segundo item</li>
-<li>Terceiro item</li>
-</ol>
-<h4 id="listas-não-ordenada">Listas não Ordenada</h4>
-<ul>
-<li>Um item</li>
-<li>Outro item</li>
-<li>Algum outro item</li>
-</ul>
-<h4 id="listas-aninhadas">Listas aninhadas</h4>
-<ul>
-<li>Frutas
-<ul>
-<li>Maçã</li>
-<li>Laranja</li>
-<li>Banana</li>
-</ul>
-</li>
-<li>Laticínios
-<ul>
-<li>Leite</li>
-<li>Queijo</li>
-</ul>
-</li>
-</ul>
-<h2 id="outros-elementos--abbr-sub-sup-kbd-mark">Outros Elementos — abbr, sub, sup, kbd, mark</h2>
-<p><!-- raw HTML omitted -->GIF<!-- raw HTML omitted --> é um formato de imagem bitmap.</p>
-<p>H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O</p>
-<p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + Y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> = Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
-<p>Aperte <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Delete<!-- raw HTML omitted --><!-- raw HTML omitted --> para fechar.</p>
-<p>A maioria das <!-- raw HTML omitted -->salamandras<!-- raw HTML omitted --> são noturnas e caçam insetos, vermes, e outras criaturas pequenas.</p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>A citação acima foi extraída da <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">apresentação</a> do Rob Pike durante a Gopherfest, de 18 de Novembro de 2015. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
+        <h2 id="primeiro-post">Primeiro post</h2>
+<p>Esse é meu primeiro post oficial no meu blog, e tem como finalidade teste</p>
+<h6 id="hello-world">Hello world</h6>
+
       </div>
 
 
